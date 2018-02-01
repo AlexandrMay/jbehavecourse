@@ -10,6 +10,7 @@ When I set date:
 |month|day|year|
 |May  |20 |201 |
 And I check share
+And I uncheck share
 Then I see error "Please enter a valid year."
 And I do not see error "When were you born?"
 
